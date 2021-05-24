@@ -8,7 +8,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Aplicacionejercicios" >
+        android:theme="@style/Theme.Aplicacionejercicios">
+        <activity android:name=".buscarweb" >
+        </activity>
         <activity android:name=".BeinvenidaActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,7 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" > </activity>
+        <activity android:name=".MainActivity" >
+        </activity>
     </application>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
 </manifest>
