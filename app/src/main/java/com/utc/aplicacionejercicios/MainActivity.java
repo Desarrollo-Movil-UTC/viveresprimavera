@@ -26,9 +26,10 @@ public class MainActivity extends AppCompatActivity {
 
 
     //PROCESO 2: abrir pantalla de productos
-    public void abrirPantallaProductos(View vista){
-        Intent pantallaProductos=new Intent(getApplicationContext(),productosActivity.class);
+    public void abrirPantallaProductos(View vista) {
+        Intent pantallaProductos = new Intent(getApplicationContext(), productosActivity.class);
         startActivity(pantallaProductos);
+    }
 
     //proceso2
     public void abrirActividadBuscarWeb(View vista){ //metodo para abrir ventana de registro

@@ -10,11 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Aplicacionejercicios">
         <activity android:name=".productosActivity"></activity>
-
         <activity android:name=".buscarweb" >
         </activity>
         <activity android:name=".BeinvenidaActivity" >
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
